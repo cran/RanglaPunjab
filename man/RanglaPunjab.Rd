@@ -4,10 +4,12 @@
 \alias{RanglaPunjab}
 \title{Palette of 5 Colors}
 \usage{
-RanglaPunjab(name)
+RanglaPunjab(name = NULL, ...)
 }
 \arguments{
 \item{name}{Palette name}
+
+\item{...}{Numeric, complex, or logical vectors}
 }
 \value{
 Vector of 5 color values
@@ -16,5 +18,7 @@ Vector of 5 color values
 This function returns a palette of 5 colors
 }
 \examples{
+RanglaPunjab("GoldenTemple")
+RanglaPunjab("SohniMahiwal")
 RanglaPunjab("Teej")
 }

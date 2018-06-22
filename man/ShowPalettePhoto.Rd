@@ -4,10 +4,12 @@
 \alias{ShowPalettePhoto}
 \title{Show Palette Photo}
 \usage{
-ShowPalettePhoto(name)
+ShowPalettePhoto(name = NULL, ...)
 }
 \arguments{
 \item{name}{palette name}
+
+\item{...}{Numeric, complex, or logical vectors}
 }
 \value{
 image of reference photo with palette
@@ -17,4 +19,6 @@ This function shows photo that inspired a palette
 }
 \examples{
 ShowPalettePhoto("GoldenTemple")
+ShowPalettePhoto("Kulfi")
+ShowPalettePhoto("AmritsariPedeWaliLassi")
 }
