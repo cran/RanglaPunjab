@@ -1,6 +1,6 @@
 Package: RanglaPunjab
 Title: Displays Palette of 5 Colors
-Version: 2.3.1
+Version: 2.3.4
 Authors@R: person("Sonia", "Ahluwalia", email = "sonia.bhar.ahluwalia@gmail.com", role = c("aut", "cre"))
 Author: Sonia Ahluwalia [aut, cre]
 Maintainer: Sonia Ahluwalia <sonia.bhar.ahluwalia@gmail.com>
@@ -21,6 +21,6 @@ Imports: jpeg, shiny, tidyverse
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2018-06-22 18:44:07 UTC; Rana
+Packaged: 2018-07-28 02:10:38 UTC; Rana
 Repository: CRAN
-Date/Publication: 2018-06-22 19:07:52 UTC
+Date/Publication: 2018-07-28 04:10:03 UTC
